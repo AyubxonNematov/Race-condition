@@ -1,7 +1,4 @@
-Here's the full and error-free README.md content written in Markdown, suitable for GitHub and also ready to be used in YAML-safe environments (e.g., for parsing tools or automation). It includes PHP version 8.4 and Laravel 12 info at the top.
 
-
----
 
 # Laravel Project - Race Condition
 
@@ -21,24 +18,24 @@ Follow these steps to set up and run the project locally:
 
 ```bash
 php artisan migrate
-
+```
 3. Run Tests
-
+```
 php artisan test
-
+```
 4. Seed the Database
-
+```
 php artisan db:seed
-
+```
 After seeding, a token will be generated and printed in the terminal.
 
 Save this token — it will be used for authentication in the API documentation.
 
 
 5. Serve the Application
-
+```
 php artisan serve
-
+```
 Visit http://localhost:8000 in your browser.
 
 
