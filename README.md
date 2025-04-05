@@ -1,11 +1,16 @@
+Here's the full and error-free README.md content written in Markdown, suitable for GitHub and also ready to be used in YAML-safe environments (e.g., for parsing tools or automation). It includes PHP version 8.4 and Laravel 12 info at the top.
+
+
 ---
 
 # Laravel Project - Race Condition
 
+**PHP Version:** 8.4  
+**Laravel Version:** 12
+
 ## Setup Instructions
 
-## php: 8.4
-## laravel: 12
+Follow these steps to set up and run the project locally:
 
 ### 1. Configure Environment Files
 
@@ -56,3 +61,6 @@ Using the Seeded Token
 
 
 4. Go to the Mock Registration section and use the received id in the request.
+
+
+
