@@ -4,8 +4,8 @@
 
 ## Setup Instructions
 
-php: 8.4
-laravel: 12
+## php: 8.4
+## laravel: 12
 
 ### 1. Configure Environment Files
 
