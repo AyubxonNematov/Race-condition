@@ -9,9 +9,11 @@ use App\Models\MockRegistration;
 use Illuminate\Support\Facades\ParallelTesting;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Client;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class MockExamRegistrationTest extends TestCase
 {
+    use RefreshDatabase;
 
     public function actingAs($user, $guard = null)
     {
